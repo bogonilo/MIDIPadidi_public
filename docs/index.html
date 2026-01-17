@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIDIPadidi | Midi Controller</title>
+    <title>MIDIPadidi | MIDI Controller for Android</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="MIDIPadidi - MIDI Controller">
+    <meta property="og:description"
+        content="Take control of your music production with MIDIPadidi. Responsive pads, keys, and expressive touch surface.">
+    <meta property="og:image" content="assets/img/feature_graphic.png">
 </head>
+
 <body>
-    <h1>MIDIPadidi | Midi Controller</h1>
+
+    <header>
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <img src="assets/img/icon.png" alt="MIDIPadidi Logo">
+                MIDIPadidi
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.lorenzo.midipadidi" class="cta-button">Get it on
+                Google Play</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Take Control of Your Music Production</h1>
+                    <p>Transform your device into a powerful MIDI controller. Seamlessly interact with Ableton Live, FL
+                        Studio, Logic Pro, and more via pure MIDI communication.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.lorenzo.midipadidi"
+                        class="cta-button">Download Now</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/img/feature_graphic.png" alt="MIDIPadidi Feature Graphic">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎛</div>
+                        <div class="feature-title">Pad Controller</div>
+                        <p>Trigger drum racks, samples, and loops with responsive pads. Configure velocity for
+                            expressive beats.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎹</div>
+                        <div class="feature-title">Piano Keyboard</div>
+                        <p>Play melodies and chords using an intuitive touch keyboard. Use volume buttons to shift
+                            octaves instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🖐</div>
+                        <div class="feature-title">Touch Surface</div>
+                        <p>Map touch gestures (X/Y) to DAW parameters for unique expression beyond traditional
+                            controllers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Prop / Info -->
+        <section class="info-section" style="background: var(--dark-bg);">
+            <div class="container" style="text-align: center; max-width: 800px;">
+                <h2>Why Choose MIDIPadidi?</h2>
+                <div style="text-align: left; background: var(--bg-surface); padding: 40px; border-radius: 20px;">
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                            <span style="color: var(--primary); font-size: 1.5rem;">✔</span>
+                            <span><strong>DAW Agnostic:</strong> Works with any DAW that supports MIDI (Ableton, FL,
+                                Logic, etc).</span>
+                        </li>
+                        <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                            <span style="color: var(--primary); font-size: 1.5rem;">✔</span>
+                            <span><strong>Plug & Play:</strong> No extra hardware needed—just connect via USB in MIDI
+                                mode.</span>
+                        </li>
+                        <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                            <span style="color: var(--primary); font-size: 1.5rem;">✔</span>
+                            <span><strong>Optimized for Touch:</strong> Designed to leverage your phone's touchscreen
+                                capabilities.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery">
+            <div class="container">
+                <h2>Screenshots</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="assets/img/screenshot_1.png" alt="App Screenshot 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/img/screenshot_2.png" alt="App Screenshot 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/img/screenshot_3.png" alt="App Screenshot 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructions -->
+        <section id="instructions" style="background: var(--bg-deep);">
+            <div class="container">
+                <h2>Quick Setup Guide</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                    <div>
+                        <h3>🔌 Connection</h3>
+                        <p>Connect your device via USB to your computer.</p>
+                        <p>Select <strong>MIDI</strong> in the USB preferences menu on your Android device.</p>
+                    </div>
+                    <div>
+                        <h3>🎚 Mapping Touch Surface</h3>
+                        <p>1. Enable MIDI mapping in your DAW.</p>
+                        <p>2. Tap "Touch to map X values" in the app (Sends MIDI event).</p>
+                        <p>3. Repeat for Y values.</p>
+                        <p><em>Use the 🔃 icon to reset or ✏️ to rename axes.</em></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo" style="justify-content: center; margin-bottom: 20px;">
+                MIDIPadidi
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/bogonilo/MIDIPadidi_public/blob/main/PRIVACY_POLICY.md">Privacy Policy</a>
+                <a href="mailto:midipadidi@yahoo.com">Support</a>
+                <a href="https://play.google.com/store/apps/details?id=com.lorenzo.midipadidi">Google Play</a>
+            </div>
+            <p>&copy; 2024 LoRe. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
