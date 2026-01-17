@@ -30,4 +30,4 @@ We may update this Privacy Policy from time to time. If there are significant ch
 
 9. Contact Us
 If you have any questions or concerns about this Privacy Policy, please contact us at:
-📧 lorenzobogoni94@gmail.com
+📧 midipadidi@yahoo.com
